@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTesting]">
+  <parameter name="GetID" value="Reg2"/>
+  <test thread-count="5" name="TestBankingSystem(failed)">
+    <groups>
+      <run>
+        <include name="RegressionTesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="UnitTestBanking.Banking.TestBankingSystem">
+        <methods>
+          <include name="TestObjects" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- UnitTestBanking.Banking.TestBankingSystem -->
+    </classes>
+  </test> <!-- TestBankingSystem(failed) -->
+</suite> <!-- Failed suite [RegressionTesting] -->

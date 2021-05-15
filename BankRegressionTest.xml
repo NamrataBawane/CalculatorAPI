@@ -1,0 +1,13 @@
+<suite name="RegressionTesting">
+<parameter name="GetID" value="Reg2"/>
+	<groups>
+		<run>
+			<include name="RegressionTesting"></include>
+		</run>
+	</groups>
+	<test name="TestBankingSystem">
+		<classes>
+			<class name="UnitTestBanking.Banking.TestBankingSystem"/>
+		</classes>
+	</test>
+</suite>

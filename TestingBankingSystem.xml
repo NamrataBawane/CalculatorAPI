@@ -1,0 +1,8 @@
+<suite name="TestBankingSystem">
+<parameter name="GetID" value="ID104"/>
+	<test name="TestBankingSystem">
+	<classes>
+		<class name="UnitTestBanking.Banking.TestBankingSystem"/>
+	</classes>
+	</test>
+</suite>

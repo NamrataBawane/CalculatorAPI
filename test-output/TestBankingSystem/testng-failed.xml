@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestBankingSystem]">
+  <parameter name="GetID" value="ID103"/>
+  <test thread-count="5" name="TestBankingSystem(failed)">
+    <classes>
+      <class name="UnitTestBanking.Banking.TestBankingSystem">
+        <methods>
+          <include name="CreateResultFolder"/>
+          <include name="CopyResultFile"/>
+          <include name="End"/>
+          <include name="Initial"/>
+          <include name="Init"/>
+          <include name="TestInvalidWithdrawal"/>
+        </methods>
+      </class> <!-- UnitTestBanking.Banking.TestBankingSystem -->
+    </classes>
+  </test> <!-- TestBankingSystem(failed) -->
+</suite> <!-- Failed suite [TestBankingSystem] -->
